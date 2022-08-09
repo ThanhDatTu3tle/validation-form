@@ -1,5 +1,5 @@
 {
-  "name": "validation-form",
+  "name": "auto-alidation-form",
   "version": "1.0.0",
   "description": "Validation form for website, for sign in and sign up form.",
   "main": "validator.js",
