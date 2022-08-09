@@ -37,6 +37,7 @@ var form =  new Validator('#idForm', '.classNameFormGroup', '.classNameErrorMess
 ###### app.js
 ```
 Validator('#register-form', '.form-group', '.form-message');
+// Validator('#idForm', '.classNameFormGroup', '.classNameErrorMessage');
 ```
 
 #### Client-side usage
