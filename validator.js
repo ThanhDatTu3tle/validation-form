@@ -1,6 +1,6 @@
 
 // đối tượng Validator
-export function Validator(formSelector) {
+export function Validator(formSelector, nameFormGroup, nameErrorMessage) {
     var _this = this;
     // khởi tạo obj rỗng chứa các rules của form
     var formRules = {};
@@ -128,12 +128,12 @@ export function Validator(formSelector) {
             // nếu có lỗi => hiển thị ra UI
             if (errorMessage) {
                 var currentElement = event.target;
-                var formGroup = getParent(currentElement, '.form-group');
+                var formGroup = getParent(currentElement, nameFormGroup);
 
                 if (formGroup) {
                     formGroup.classList.add('invalid');
                     
-                    var formMessage = formGroup.querySelector('.form-message');
+                    var formMessage = formGroup.querySelector(nameErrorMessage);
 
                     if (formMessage) {
                         formMessage.innerText = errorMessage;
@@ -146,11 +146,11 @@ export function Validator(formSelector) {
 
         function handleClearError(event) {
             var currentElement = event.target;
-            var formGroup = getParent(currentElement, '.form-group');
+            var formGroup = getParent(currentElement, nameFormGroup);
 
             if (formGroup.classList.contains('invalid')) {
                 formGroup.classList.remove('invalid');
-                var formMessage = formGroup.querySelector('.form-message');
+                var formMessage = formGroup.querySelector(nameErrorMessage);
 
                 if (formMessage) {
                     formMessage.innerText = '';
