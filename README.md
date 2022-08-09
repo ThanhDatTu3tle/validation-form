@@ -5,6 +5,12 @@
 
 #### Server-side usage
 ##### Install the library with ```npm install auto-validation-form```
+
+#### Client-side usage
+#### Install
+```
+<script type="module" src="./app.js"></script>
+```
 #### Usage
 ##### In app.js
 ```
@@ -12,6 +18,17 @@ import { Validator } from './node_modules/auto-alidation-form/validator.js';
 
 var form =  new Validator('#idForm', '.classNameFormGroup', '.classNameErrorMessage'); 
 ```
+##### Rules: 
+* required: Is input required?
+* email: Verify email is correct.
+* min: Minimum characters for input.
+* max: Maximum characters for input.
+* confirmPassword: Verify input "Re-enter password".
+* checked: Is type="radio" and type="checkbox" of input required?
+
+##### How to use rules?
+###### You just need to add our predefined rules attribute, then add a value to that attribute depending on your needs.
+
 ##### Example:
 ###### index.html
 ```
@@ -40,9 +57,5 @@ Validator('#register-form', '.form-group', '.form-message');
 // Validator('#idForm', '.classNameFormGroup', '.classNameErrorMessage');
 ```
 
-#### Client-side usage
-#### Install
-```
-<script type="module" src="./app.js"></script>
-```
+
 
