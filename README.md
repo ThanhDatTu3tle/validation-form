@@ -19,12 +19,15 @@ import { Validator } from './node_modules/auto-alidation-form/validator.js';
 var form =  new Validator('#idForm', '.classNameFormGroup', '.classNameErrorMessage'); 
 ```
 ##### Rules: 
-* required: Is input required?
-* email: Verify email is correct.
-* min: Minimum characters for input.
-* max: Maximum characters for input.
-* confirmPassword: Verify input "Re-enter password".
-* checked: Is type="radio" and type="checkbox" of input required?
+
+| Rules's name     | Uses                                                                |
+| ---------------- |:-------------------------------------------------------------------:|
+| required         | Is input required?                                                  |
+| email            | Verify email is correct.                                            |
+| min              | Minimum characters for input.                                       |
+| max              | Maximum characters for input.                                       |
+| confirmPassword  | Verify input "Re-enter password".                                   |
+| checked          | Is type="radio" and type="checkbox" of input required?              |
 
 ##### How to use rules?
 ###### You just need to add our predefined rules attribute, then add a value to that attribute depending on your needs.
