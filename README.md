@@ -32,6 +32,10 @@ var form =  new Validator('#idForm', '.classNameFormGroup', '.classNameErrorMess
 ##### How to use rules?
 ###### You just need to add our predefined rules attribute, then add a value to that attribute depending on your needs.
 
+##### Can I use more than one rule in input tag?
+
+###### Absolutely yes! If you want to use one more rule, you just need to add the rule name directly to the value of the "rules" attribute in the input tag, then separate the values ​​with a "|".
+
 ##### Example:
 ###### index.html
 ```
