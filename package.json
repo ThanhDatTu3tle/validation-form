@@ -1,6 +1,6 @@
 {
   "name": "auto-alidation-form",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validation form for website, for sign in and sign up form.",
   "main": "validator.js",
   "scripts": {
