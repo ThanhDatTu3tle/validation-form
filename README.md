@@ -1,10 +1,16 @@
 # auto-validation-form.js
 ##### A library used to verify registration/login form.
 
-## Installation and Uasge 
+## Contributors
+### So much appreciate for Mr.Sơn Đặng - Founder of "Cộng Đồng Học Lập Trình F8", Mr.Hữu Lộc 
+
+## Installation and Usage 
 
 #### Server-side usage
 ##### Install the library with ```npm install auto-validation-form```
+```
+npm install auto-validation-form
+```
 
 #### Client-side usage
 #### Install
