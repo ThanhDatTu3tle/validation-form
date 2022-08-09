@@ -1,0 +1,23 @@
+{
+  "name": "validation-form",
+  "version": "1.0.0",
+  "description": "Validation form for website, for sign in and sign up form.",
+  "main": "validator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanhDatTu3tle/validation-form.git"
+  },
+  "keywords": [
+    "validation-form",
+    "JavaScriptJavaScript"
+  ],
+  "author": "Nguyen Thanh Dat <thanhdat11badinh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThanhDatTu3tle/validation-form/issues"
+  },
+  "homepage": "https://github.com/ThanhDatTu3tle/validation-form#readme"
+}
