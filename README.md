@@ -20,7 +20,7 @@ npm install auto-validation-form
 #### Usage
 ##### In app.js
 ```
-import { Validator } from './node_modules/auto-alidation-form/validator.js';
+import { Validator } from './node_modules/auto-validation-form/validator.js';
 
 var form =  new Validator('#idForm', '.classNameFormGroup', '.classNameErrorMessage'); 
 ```
