@@ -1,6 +1,6 @@
 {
   "name": "auto-validation-form",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Validation form for website, for sign in and sign up form.",
   "main": "validator.js",
   "scripts": {
