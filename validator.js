@@ -36,7 +36,7 @@ export function Validator(formSelector, nameFormGroup, nameErrorMessage) {
             if (value === currentPassword) {
                 return undefined;
             } else {
-                return `Re-entered password does not match! Please re-enter!`;
+                return `Re-entered password does not match!`;
             }
         },
         checked(elementChecked) {
