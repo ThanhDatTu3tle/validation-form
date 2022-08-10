@@ -32,7 +32,8 @@ export function Validator(formSelector, nameFormGroup, nameErrorMessage) {
             }
         },
         confirmPassword: (value) => {
-            var currentPassword = document.querySelector('#register-form #password').value;
+            var passWordElemnt = formElement.querySelector(`input[name="${e.target.value}"]`);
+            var currentPassword = document.querySelector(formSelector + passWordElemnt).value;
             if (value === currentPassword) {
                 return undefined;
             } else {
