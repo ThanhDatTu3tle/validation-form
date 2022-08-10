@@ -64,6 +64,24 @@ var form =  new Validator('#idForm', '.classNameFormGroup', '.classNameErrorMess
     <button type="text" class="submit">Submit</button>
 </form>
 ```
+
+###### style.css
+```
+...
+.form-group {
+    height: 50px;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .form-message {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 4px 0 0;
+    color: #f33a58;
+  }
+```
 ###### app.js
 ```
 Validator('#register-form', '.form-group', '.form-message');
